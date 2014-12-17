@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>测试</title>
+<meta charset="utf-8">
+<script>var x = 110;</script>
+<style>
+.msg {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 200px;
+	margin-left: -300px;
+	margin-top: -100px;
+	text-align: center;
+	font: 100px/200px arial,"Microsoft Yahei",sans-serif;
+	color: #333;
+}
+.ball {
+    position: fixed;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    filter:alpha(opacity=60);
+}
+</style>
+</head>
+<body>
+
+<script src="../jquery.js"></script>
+<script src="balls.js"></script>
+<script>
+RandomBalls.add(30).init().start();
+</script>
+</body>
+</html>
